@@ -1,0 +1,12 @@
+body{background-color: rgb(128, 167, 250);}
+
+
+#alfombrapregunta{
+
+display: flex;
+justify-content: center;
+flex-direction:row;
+
+
+
+}
