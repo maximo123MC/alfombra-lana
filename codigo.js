@@ -27,6 +27,6 @@ start.addEventListener('click', () => {
     let cantidadLana = calcularLana(alfombra);
     let resultado = calcularStack(cantidadLana);
 
-    resultadoTexto.textContent = `Para ${alfombra} alfombras necesitas ${cantidadLana} de lana.
+    resultadoTexto.innerHTML = `Para ${alfombra} alfombras necesitas ${cantidadLana} de lana. <br>
     Total: ${resultado.grupoStack} stacks con ${resultado.lanaRestante} de lana suelta.`;
 });
